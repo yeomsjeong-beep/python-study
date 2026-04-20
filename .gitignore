@@ -1,0 +1,27 @@
+# Python cache
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+
+# 가상환경
+venv/
+.env/
+
+# VS Code 설정
+.vscode/
+
+# OS 파일
+.DS_Store
+Thumbs.db
+
+# 로그 / 임시파일
+*.log
+
+# Jupyter (혹시 쓸 경우)
+.ipynb_checkpoints/
+
+# 테스트/빌드
+dist/
+build/
+*.egg-info/
