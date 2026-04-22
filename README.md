@@ -2,9 +2,11 @@
 파이썬 기초부터 시작하는, 학습 기록 저장소입니다.  
   
 ## 구조
+- assets/ : 관련 스샷 또는 사진
 - basics/ : 문법 학습
+- notes/ : 개념 정리
 - practice/ : 문제 풀이
-- mini-projects/ : 프로젝트  
+- mini-projects/ : 작은 프로젝트  
   
 ## 진행 상황
 - Day1: 변수, 출력
