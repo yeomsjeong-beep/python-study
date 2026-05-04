@@ -106,11 +106,24 @@
 # coffee = "americano coffee"
 # print(f"I have {count} {coffee}")       # I have 2 americano coffee
 
-# - 포맷코드와 숫자
-# 1. 정렬과 공백
-print("%10s" % "hi")           #         hi
-print("%-10sjane." % "hi")  # hi        jane.
+# # - 포맷코드와 숫자
+# # 1. 정렬과 공백
+# print("%10s" % "hi")           #         hi
+# print("%-10sjane." % "hi")  # hi        jane.
 
-# 2. 소수점 표현
-print("%0.4f" % 3.123456789)    # 3.1235
-print("%10.4f" % 3.123456789)    #     3.1235
+# # 2. 소수점 표현
+# print("%0.4f" % 3.123456789)    # 3.1235
+# print("%10.4f" % 3.123456789)    #     3.1235
+
+# - format 함수
+print("{0}% or nothing".format(100))    # 100% or nothing
+print("{0}, think".format("First"))          # First, think
+
+number = 99
+print("{0}% or nothing".format(number))    # 99% or nothing
+
+number = 10
+day = "three"
+print("I ate {0} apples. so I was sick for {1} days".format(number, day))   # I ate 10 apples. so I was sick for three days
+
+print("I ate {number} apples. so I was sick for {day} days".format(number=7, day=2))    # I ate 7 apples. so I was sick for 2 days
