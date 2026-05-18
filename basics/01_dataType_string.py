@@ -127,3 +127,6 @@ day = "three"
 print("I ate {0} apples. so I was sick for {1} days".format(number, day))   # I ate 10 apples. so I was sick for three days
 
 print("I ate {number} apples. so I was sick for {day} days".format(number=7, day=2))    # I ate 7 apples. so I was sick for 2 days
+
+print("I ate {0} apples. so I was sick for {day} days".format(10,day=3))
+# I ate 10 apples. so I was sick for 3 days
